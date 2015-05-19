@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
     BOOL settingMode = [[NSNumber numberWithInt:(modifierFlags & NSCommandKeyMask)] boolValue];
     [NSApplication sharedApplication];
     NSString *nibName = settingMode == NO && [FPXPlist exists] ? @"MainMenu" : @"SettingMenu";
-    [NSBundle loadNibNamed:nibName owner:NSApp];
+    [[NSBundle mainBundle] loadNibNamed:nibName owner:NSApp topLevelObjects:nil];
     [NSApp run];
     [pool release];
 }

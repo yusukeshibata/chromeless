@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -127,7 +127,6 @@
 				748C53B616F6C82E00E5BF27 /* Frameworks */,
 				748C53B716F6C82E00E5BF27 /* Resources */,
 				74192A211B096DA20071A655 /* Add Build Number */,
-				74192A221B096DD40071A655 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -145,11 +144,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FPX;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = fata.io;
 			};
 			buildConfigurationList = 748C53B416F6C82E00E5BF27 /* Build configuration list for PBXProject "fpx" */;
-			compatibilityVersion = "Xcode 6.3";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -194,20 +193,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\"";
-			showEnvVarsInLog = 0;
-		};
-		74192A221B096DD40071A655 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "CFBundleShortVersionString=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\")\nCFBundleIdentifier=$(/usr/libexec/PlistBuddy -c \"Print CFBundleIdentifier\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\")\npkgbuild \\\n--root \"${TARGET_BUILD_DIR}\" \\\n--install-location \"/Applications\" \\\n--identifier \"$CFBundleIdentifier\" \\\n--version \"$CFBundleShortVersionString\" \\\n\"${DIST_DIR}/${PRODUCT_NAME}-$CFBundleShortVersionString.pkg\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -259,7 +244,6 @@
 			baseConfigurationReference = 74192A251B096EA30071A655 /* fpx.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -292,7 +276,6 @@
 			baseConfigurationReference = 74192A251B096EA30071A655 /* fpx.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
