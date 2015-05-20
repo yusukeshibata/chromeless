@@ -7,35 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74150C251B0CE17C003E59B0 /* fpx.icns in Resources */ = {isa = PBXBuildFile; fileRef = 74150C231B0CE17C003E59B0 /* fpx.icns */; };
+		74150C301B0CE1E5003E59B0 /* FPXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2A1B0CE1E5003E59B0 /* FPXAppDelegate.m */; };
+		74150C311B0CE1E5003E59B0 /* FPXPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2C1B0CE1E5003E59B0 /* FPXPlist.m */; };
+		74150C321B0CE1E5003E59B0 /* FPXSettingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */; };
+		74150C331B0CE1E5003E59B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2F1B0CE1E5003E59B0 /* main.m */; };
 		74192A2E1B096EBE0071A655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74192A281B096EBE0071A655 /* InfoPlist.strings */; };
 		74192A2F1B096EBE0071A655 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74192A2A1B096EBE0071A655 /* MainMenu.xib */; };
 		74192A301B096EBE0071A655 /* SettingMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74192A2C1B096EBE0071A655 /* SettingMenu.xib */; };
-		74192A391B096EEB0071A655 /* FPXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74192A331B096EEB0071A655 /* FPXAppDelegate.m */; };
-		74192A3A1B096EEB0071A655 /* FPXPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 74192A351B096EEB0071A655 /* FPXPlist.m */; };
-		74192A3B1B096EEB0071A655 /* FPXSettingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74192A371B096EEB0071A655 /* FPXSettingAppDelegate.m */; };
-		74192A3C1B096EEB0071A655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74192A381B096EEB0071A655 /* main.m */; };
-		7471625F1B09732A0061F3A2 /* fpx.png in Resources */ = {isa = PBXBuildFile; fileRef = 7471625E1B09732A0061F3A2 /* fpx.png */; };
-		747162631B09745D0061F3A2 /* fpx.icns in Resources */ = {isa = PBXBuildFile; fileRef = 747162621B09745D0061F3A2 /* fpx.icns */; };
 		748C53BD16F6C82E00E5BF27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C53BC16F6C82E00E5BF27 /* Cocoa.framework */; };
 		748C53DA16F6C8B200E5BF27 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C53D916F6C8B200E5BF27 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74150C231B0CE17C003E59B0 /* fpx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = fpx.icns; sourceTree = "<group>"; };
+		74150C241B0CE17C003E59B0 /* fpx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fpx.png; sourceTree = "<group>"; };
+		74150C281B0CE1E5003E59B0 /* fpx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fpx-Prefix.pch"; sourceTree = "<group>"; };
+		74150C291B0CE1E5003E59B0 /* FPXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXAppDelegate.h; sourceTree = "<group>"; };
+		74150C2A1B0CE1E5003E59B0 /* FPXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXAppDelegate.m; sourceTree = "<group>"; };
+		74150C2B1B0CE1E5003E59B0 /* FPXPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXPlist.h; sourceTree = "<group>"; };
+		74150C2C1B0CE1E5003E59B0 /* FPXPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXPlist.m; sourceTree = "<group>"; };
+		74150C2D1B0CE1E5003E59B0 /* FPXSettingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXSettingAppDelegate.h; sourceTree = "<group>"; };
+		74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXSettingAppDelegate.m; sourceTree = "<group>"; };
+		74150C2F1B0CE1E5003E59B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74192A251B096EA30071A655 /* fpx.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = fpx.xcconfig; sourceTree = "<group>"; };
 		74192A291B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		74192A2B1B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
 		74192A2D1B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SettingMenu.xib; sourceTree = "<group>"; };
-		74192A311B096EEB0071A655 /* fpx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fpx-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		74192A321B096EEB0071A655 /* FPXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXAppDelegate.h; sourceTree = SOURCE_ROOT; };
-		74192A331B096EEB0071A655 /* FPXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		74192A341B096EEB0071A655 /* FPXPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXPlist.h; sourceTree = SOURCE_ROOT; };
-		74192A351B096EEB0071A655 /* FPXPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXPlist.m; sourceTree = SOURCE_ROOT; };
-		74192A361B096EEB0071A655 /* FPXSettingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXSettingAppDelegate.h; sourceTree = SOURCE_ROOT; };
-		74192A371B096EEB0071A655 /* FPXSettingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXSettingAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		74192A381B096EEB0071A655 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		74192A3D1B096F2A0071A655 /* fpx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fpx-Info.plist"; sourceTree = "<group>"; };
-		7471625E1B09732A0061F3A2 /* fpx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fpx.png; sourceTree = "<group>"; };
-		747162621B09745D0061F3A2 /* fpx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = fpx.icns; sourceTree = "<group>"; };
 		748C53B916F6C82E00E5BF27 /* fpxDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fpxDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748C53BC16F6C82E00E5BF27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		748C53BF16F6C82E00E5BF27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -57,6 +56,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74150C221B0CE17C003E59B0 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				74150C231B0CE17C003E59B0 /* fpx.icns */,
+				74150C241B0CE17C003E59B0 /* fpx.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		74150C271B0CE1E5003E59B0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				74150C281B0CE1E5003E59B0 /* fpx-Prefix.pch */,
+				74150C291B0CE1E5003E59B0 /* FPXAppDelegate.h */,
+				74150C2A1B0CE1E5003E59B0 /* FPXAppDelegate.m */,
+				74150C2B1B0CE1E5003E59B0 /* FPXPlist.h */,
+				74150C2C1B0CE1E5003E59B0 /* FPXPlist.m */,
+				74150C2D1B0CE1E5003E59B0 /* FPXSettingAppDelegate.h */,
+				74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */,
+				74150C2F1B0CE1E5003E59B0 /* main.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		74192A271B096EBE0071A655 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,18 +93,10 @@
 		748C53B016F6C82E00E5BF27 = {
 			isa = PBXGroup;
 			children = (
-				747162621B09745D0061F3A2 /* fpx.icns */,
 				74192A251B096EA30071A655 /* fpx.xcconfig */,
 				74192A3D1B096F2A0071A655 /* fpx-Info.plist */,
-				74192A311B096EEB0071A655 /* fpx-Prefix.pch */,
-				74192A321B096EEB0071A655 /* FPXAppDelegate.h */,
-				74192A331B096EEB0071A655 /* FPXAppDelegate.m */,
-				74192A341B096EEB0071A655 /* FPXPlist.h */,
-				74192A351B096EEB0071A655 /* FPXPlist.m */,
-				74192A361B096EEB0071A655 /* FPXSettingAppDelegate.h */,
-				74192A371B096EEB0071A655 /* FPXSettingAppDelegate.m */,
-				74192A381B096EEB0071A655 /* main.m */,
-				7471625E1B09732A0061F3A2 /* fpx.png */,
+				74150C271B0CE1E5003E59B0 /* src */,
+				74150C221B0CE17C003E59B0 /* res */,
 				74192A271B096EBE0071A655 /* en.lproj */,
 				748C53BB16F6C82E00E5BF27 /* Frameworks */,
 				748C53BA16F6C82E00E5BF27 /* Products */,
@@ -169,10 +184,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747162631B09745D0061F3A2 /* fpx.icns in Resources */,
-				7471625F1B09732A0061F3A2 /* fpx.png in Resources */,
 				74192A301B096EBE0071A655 /* SettingMenu.xib in Resources */,
 				74192A2F1B096EBE0071A655 /* MainMenu.xib in Resources */,
+				74150C251B0CE17C003E59B0 /* fpx.icns in Resources */,
 				74192A2E1B096EBE0071A655 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,10 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74192A3B1B096EEB0071A655 /* FPXSettingAppDelegate.m in Sources */,
-				74192A391B096EEB0071A655 /* FPXAppDelegate.m in Sources */,
-				74192A3A1B096EEB0071A655 /* FPXPlist.m in Sources */,
-				74192A3C1B096EEB0071A655 /* main.m in Sources */,
+				74150C321B0CE1E5003E59B0 /* FPXSettingAppDelegate.m in Sources */,
+				74150C301B0CE1E5003E59B0 /* FPXAppDelegate.m in Sources */,
+				74150C311B0CE1E5003E59B0 /* FPXPlist.m in Sources */,
+				74150C331B0CE1E5003E59B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +316,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fpx-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/fpx-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
@@ -316,7 +330,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "fpx-Prefix.pch";
+				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/fpx-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";

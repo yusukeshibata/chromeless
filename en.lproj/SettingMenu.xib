@@ -25,7 +25,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="130"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="144"/>
-                            <menuItem title="Hide NewApplication" keyEquivalent="h" id="134">
+                            <menuItem title="Hide fpx" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-1" id="367"/>
                                 </connections>
@@ -312,12 +312,13 @@
         <window title="Setting" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" animationBehavior="default" id="795">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <rect key="contentRect" x="723" y="469" width="328" height="256"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="745"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <value key="minSize" type="size" width="328" height="256"/>
             <view key="contentView" id="796">
                 <rect key="frame" x="0.0" y="0.0" width="328" height="256"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="797">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="797">
                         <rect key="frame" x="18" y="217" width="12" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="x" id="798">
                             <font key="font" metaFont="system"/>
@@ -325,12 +326,9 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="801">
-                        <rect key="frame" x="35" y="214" width="96" height="22"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="96" id="908"/>
-                        </constraints>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="802">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="801">
+                        <rect key="frame" x="35" y="215" width="96" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" usesSingleLineMode="YES" id="802">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -342,7 +340,7 @@
                             <binding destination="911" name="value" keyPath="x" id="948"/>
                         </connections>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="808">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="808">
                         <rect key="frame" x="18" y="190" width="11" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="y" id="812">
                             <font key="font" metaFont="system"/>
@@ -350,9 +348,9 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="809">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="809">
                         <rect key="frame" x="35" y="187" width="96" height="22"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="811">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" usesSingleLineMode="YES" id="811">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -364,7 +362,7 @@
                             <binding destination="911" name="value" keyPath="y" id="943"/>
                         </connections>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="820">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="820">
                         <rect key="frame" x="137" y="217" width="15" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="w" id="824">
                             <font key="font" metaFont="system"/>
@@ -372,24 +370,7 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="821">
-                        <rect key="frame" x="156" y="214" width="96" height="22"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="96" id="960"/>
-                        </constraints>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="823">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                            <allowedInputSourceLocales>
-                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
-                            </allowedInputSourceLocales>
-                        </textFieldCell>
-                        <connections>
-                            <binding destination="911" name="value" keyPath="w" id="945"/>
-                        </connections>
-                    </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="832">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="832">
                         <rect key="frame" x="137" y="190" width="13" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="h" id="836">
                             <font key="font" metaFont="system"/>
@@ -397,9 +378,9 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="833">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="833">
                         <rect key="frame" x="156" y="187" width="96" height="22"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="835">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" usesSingleLineMode="YES" id="835">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -411,7 +392,7 @@
                             <binding destination="911" name="value" keyPath="h" id="947"/>
                         </connections>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="844">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="844">
                         <rect key="frame" x="33" y="161" width="63" height="17"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="file or url" id="845">
                             <font key="font" metaFont="system"/>
@@ -419,12 +400,9 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
-                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="848">
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="848">
                         <rect key="frame" x="35" y="135" width="200" height="22"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="200" id="853"/>
-                        </constraints>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="849">
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" usesSingleLineMode="YES" id="849">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -433,7 +411,7 @@
                             <binding destination="911" name="value" keyPath="url" id="929"/>
                         </connections>
                     </textField>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="854">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="854">
                         <rect key="frame" x="237" y="129" width="77" height="32"/>
                         <buttonCell key="cell" type="push" title="Select" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="855">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -443,7 +421,7 @@
                             <action selector="selectFile:" target="911" id="949"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="859">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="859">
                         <rect key="frame" x="232" y="13" width="82" height="32"/>
                         <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="860">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -456,7 +434,7 @@ Gw
                             <action selector="cancel:" target="911" id="931"/>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="863">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="863">
                         <rect key="frame" x="156" y="13" width="76" height="32"/>
                         <buttonCell key="cell" type="push" title="Apply" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="864">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -466,7 +444,7 @@ Gw
                             <action selector="apply:" target="911" id="930"/>
                         </connections>
                     </button>
-                    <button translatesAutoresizingMaskIntoConstraints="NO" id="980">
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="980">
                         <rect key="frame" x="33" y="111" width="259" height="18"/>
                         <buttonCell key="cell" type="check" title="Don't make window to top level order" bezelStyle="regularSquare" imagePosition="left" inset="2" id="981">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -476,7 +454,7 @@ Gw
                             <binding destination="911" name="value" keyPath="dontmakeordertop" id="985"/>
                         </connections>
                     </button>
-                    <button translatesAutoresizingMaskIntoConstraints="NO" id="986">
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="986">
                         <rect key="frame" x="33" y="91" width="155" height="18"/>
                         <buttonCell key="cell" type="check" title="Hide cursor on active" bezelStyle="regularSquare" imagePosition="left" inset="2" id="987">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -486,46 +464,26 @@ Gw
                             <binding destination="911" name="value" keyPath="hidecursor" id="994"/>
                         </connections>
                     </button>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="821">
+                        <rect key="frame" x="156" y="214" width="96" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" continuous="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" usesSingleLineMode="YES" id="823">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                        </textFieldCell>
+                        <connections>
+                            <binding destination="911" name="value" keyPath="w" id="945"/>
+                        </connections>
+                    </textField>
                 </subviews>
-                <constraints>
-                    <constraint firstItem="797" firstAttribute="leading" secondItem="796" secondAttribute="leading" constant="20" symbolic="YES" id="800"/>
-                    <constraint firstItem="801" firstAttribute="top" secondItem="796" secondAttribute="top" constant="20" symbolic="YES" id="803"/>
-                    <constraint firstItem="808" firstAttribute="centerY" secondItem="809" secondAttribute="centerY" id="816"/>
-                    <constraint firstItem="808" firstAttribute="leading" secondItem="796" secondAttribute="leading" constant="20" symbolic="YES" id="817"/>
-                    <constraint firstItem="833" firstAttribute="leading" secondItem="832" secondAttribute="trailing" constant="8" symbolic="YES" id="838"/>
-                    <constraint firstItem="848" firstAttribute="leading" secondItem="844" secondAttribute="leading" id="852"/>
-                    <constraint firstItem="854" firstAttribute="leading" secondItem="848" secondAttribute="trailing" constant="8" symbolic="YES" id="856"/>
-                    <constraint firstAttribute="trailing" secondItem="859" secondAttribute="trailing" constant="20" symbolic="YES" id="861"/>
-                    <constraint firstAttribute="bottom" secondItem="859" secondAttribute="bottom" constant="20" symbolic="YES" id="862"/>
-                    <constraint firstAttribute="bottom" secondItem="863" secondAttribute="bottom" constant="20" symbolic="YES" id="865"/>
-                    <constraint firstItem="859" firstAttribute="leading" secondItem="863" secondAttribute="trailing" constant="12" symbolic="YES" id="867"/>
-                    <constraint firstItem="833" firstAttribute="leading" secondItem="821" secondAttribute="leading" id="885"/>
-                    <constraint firstItem="809" firstAttribute="leading" secondItem="801" secondAttribute="leading" id="904"/>
-                    <constraint firstItem="821" firstAttribute="trailing" secondItem="833" secondAttribute="trailing" id="909"/>
-                    <constraint firstItem="832" firstAttribute="leading" secondItem="820" secondAttribute="leading" id="954"/>
-                    <constraint firstItem="844" firstAttribute="leading" secondItem="809" secondAttribute="leading" id="956"/>
-                    <constraint firstItem="844" firstAttribute="top" secondItem="796" secondAttribute="top" constant="78" id="962"/>
-                    <constraint firstItem="820" firstAttribute="baseline" secondItem="797" secondAttribute="baseline" id="964"/>
-                    <constraint firstItem="820" firstAttribute="leading" secondItem="801" secondAttribute="trailing" constant="8" symbolic="YES" id="966"/>
-                    <constraint firstItem="832" firstAttribute="leading" secondItem="809" secondAttribute="trailing" constant="8" symbolic="YES" id="967"/>
-                    <constraint firstItem="833" firstAttribute="baseline" secondItem="809" secondAttribute="baseline" id="968"/>
-                    <constraint firstItem="821" firstAttribute="top" secondItem="796" secondAttribute="top" constant="20" symbolic="YES" id="969"/>
-                    <constraint firstItem="832" firstAttribute="baseline" secondItem="808" secondAttribute="baseline" id="970"/>
-                    <constraint firstItem="797" firstAttribute="centerY" secondItem="801" secondAttribute="centerY" id="971"/>
-                    <constraint firstAttribute="trailing" secondItem="854" secondAttribute="trailing" constant="20" symbolic="YES" id="972"/>
-                    <constraint firstItem="809" firstAttribute="top" secondItem="796" secondAttribute="top" constant="47" id="974"/>
-                    <constraint firstItem="854" firstAttribute="top" secondItem="848" secondAttribute="top" id="977"/>
-                    <constraint firstItem="848" firstAttribute="top" secondItem="796" secondAttribute="top" constant="99" id="979"/>
-                    <constraint firstItem="980" firstAttribute="leading" secondItem="848" secondAttribute="leading" id="983"/>
-                    <constraint firstItem="980" firstAttribute="top" secondItem="848" secondAttribute="bottom" constant="8" symbolic="YES" id="984"/>
-                    <constraint firstItem="986" firstAttribute="top" secondItem="980" secondAttribute="bottom" constant="6" symbolic="YES" id="992"/>
-                    <constraint firstItem="986" firstAttribute="leading" secondItem="980" secondAttribute="leading" id="993"/>
-                </constraints>
             </view>
             <connections>
                 <outlet property="delegate" destination="911" id="916"/>
             </connections>
+            <point key="canvasLocation" x="205" y="181"/>
         </window>
-        <userDefaultsController representsSharedInstance="YES" id="917"/>
     </objects>
 </document>

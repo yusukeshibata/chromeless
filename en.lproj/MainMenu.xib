@@ -18,15 +18,6 @@
                 <menuItem title="fpx" id="56">
                     <menu key="submenu" title="fpx" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About fpx" id="58">
-                                <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem isSeparatorItem="YES" id="236">
-                                <modifierMask key="keyEquivalentModifierMask" command="YES"/>
-                            </menuItem>
                             <menuItem title="Services" id="131">
                                 <menu key="submenu" title="Services" systemMenu="services" id="130"/>
                             </menuItem>
