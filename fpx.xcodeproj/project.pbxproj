@@ -41,6 +41,7 @@
 		748C53C016F6C82E00E5BF27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		748C53C116F6C82E00E5BF27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		748C53D916F6C8B200E5BF27 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = ../../../../System/Library/Frameworks/WebKit.framework; sourceTree = "<group>"; };
+		74E52DEB1B0D9F160014BB2D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		748C53B016F6C82E00E5BF27 = {
 			isa = PBXGroup;
 			children = (
+				74E52DEB1B0D9F160014BB2D /* README.md */,
 				74192A251B096EA30071A655 /* fpx.xcconfig */,
 				74192A3D1B096F2A0071A655 /* fpx-Info.plist */,
 				74150C271B0CE1E5003E59B0 /* src */,
@@ -319,6 +321,7 @@
 				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/fpx-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
 			};
@@ -333,6 +336,7 @@
 				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/fpx-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
