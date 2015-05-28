@@ -32,9 +32,6 @@
         CGDisplayHideCursor(kCGDirectMainDisplay);
     
     [webview setMainFrameURL:[dic objectForKey:@"url"]];
-    
-    NSLog(@"%@", [FPXPlist name]);
-    
 }
 
 @end

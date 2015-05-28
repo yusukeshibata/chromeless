@@ -10,7 +10,6 @@
 
 @interface FPXPlist : NSObject
 
-+ (NSString *)name;
 + (NSString *)path;
 + (BOOL)exists;
 + (void)store: (NSDictionary *)dic;

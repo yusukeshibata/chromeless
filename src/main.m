@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
         if([name isEqual:name_current]) goto END;
         NSURL *exeURL = [mb executableURL];
         NSURL *newExeURL= [[exeURL URLByDeletingLastPathComponent]
-                           URLByAppendingPathComponent:name];
+                            URLByAppendingPathComponent:name];
         if([[NSFileManager defaultManager] moveItemAtURL:exeURL toURL:newExeURL error:nil] == NO) {
             NSLog(@"Fatal:Rename executable failed:[%@]->[%@]", exeURL, newExeURL);
             goto END;
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
                             URLByAppendingPathComponent:@"Contents"]
                            URLByAppendingPathComponent:@"Info.plist"];
         NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithContentsOfURL:plistURL];
-        NSString *bi = [NSString stringWithFormat:@"jp.yusukeshibata.fpx.%@", name];
+        NSString *bi = [NSString stringWithFormat:@"io.fata.fpx.%@", name];
         [dic setValue:name forKey:@"CFBundleExecutable"];
         [dic setValue:name forKey:@"CFBundleName"];
         [dic setValue:bi forKey:@"CFBundleIdentifier"];
@@ -79,12 +79,12 @@ int main(int argc, char *argv[])
     }
     
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    
+    NSString *appname = [[[[NSBundle mainBundle] bundlePath] lastPathComponent] stringByDeletingPathExtension];
     NSString *name_current = [[[NSBundle mainBundle] executablePath] lastPathComponent];
-    if([name_current isEqual:[FPXPlist name]] == NO) {
+    if([name_current isEqual:appname] == NO) {
         NSArray *arguments = [NSArray arrayWithObjects:
                               @"--update",
-                              [FPXPlist name],
+                              appname,
                               nil];
         NSTask *t = [[[NSTask alloc] init] autorelease];
         [t setLaunchPath:[[NSBundle mainBundle] executablePath]];

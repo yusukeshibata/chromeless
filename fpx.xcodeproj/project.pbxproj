@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -144,6 +144,7 @@
 				748C53B616F6C82E00E5BF27 /* Frameworks */,
 				748C53B716F6C82E00E5BF27 /* Resources */,
 				74192A211B096DA20071A655 /* Add Build Number */,
+				74203A221B16B10E0087E214 /* Archive App to Zip */,
 			);
 			buildRules = (
 			);
@@ -165,7 +166,7 @@
 				ORGANIZATIONNAME = fata.io;
 			};
 			buildConfigurationList = 748C53B416F6C82E00E5BF27 /* Build configuration list for PBXProject "fpx" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -209,6 +210,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\"";
+			showEnvVarsInLog = 0;
+		};
+		74203A221B16B10E0087E214 /* Archive App to Zip */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Archive App to Zip";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/zip -r \"${DIST_DIR}/fpx.zip\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

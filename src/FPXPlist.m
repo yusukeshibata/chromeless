@@ -10,13 +10,9 @@
 
 @implementation FPXPlist
 
-+ (NSString *)name {
-    NSString *p = [[NSBundle mainBundle] bundlePath];
-    return [[p lastPathComponent] stringByDeletingPathExtension];
-}
 + (NSString *)path {
-    NSString *p = [[NSBundle mainBundle] bundlePath];
-    return [[p stringByDeletingPathExtension] stringByAppendingPathExtension:@"plist"];
+    NSString *p = [[NSBundle mainBundle] resourcePath];
+    return [p stringByAppendingPathComponent:@"fpx.plist"];
 }
 + (BOOL)exists {
     NSFileManager *fm = [NSFileManager defaultManager];
