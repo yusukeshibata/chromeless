@@ -21,12 +21,16 @@
                                 [[dic objectForKey:@"w"] intValue],
                                 [[dic objectForKey:@"h"] intValue]) display:YES];
     BOOL dontmakeordertop = [[dic objectForKey:@"dontmakeordertop"] boolValue];
+    BOOL removeshadow = [[dic objectForKey:@"removeshadow"] boolValue];
     if(dontmakeordertop) {
         [NSMenu setMenuBarVisible:NO];
         [window makeKeyAndOrderFront:nil];
     } else {
         [window setLevel:NSScreenSaverWindowLevel + 1];
         [window orderFront:nil];
+    }
+    if(removeshadow) {
+        [window setHasShadow:NO];
     }
     if([[dic objectForKey:@"hidecursor"] boolValue])
         CGDisplayHideCursor(kCGDirectMainDisplay);

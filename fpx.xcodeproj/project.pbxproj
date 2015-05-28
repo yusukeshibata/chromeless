@@ -12,9 +12,9 @@
 		74150C311B0CE1E5003E59B0 /* FPXPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2C1B0CE1E5003E59B0 /* FPXPlist.m */; };
 		74150C321B0CE1E5003E59B0 /* FPXSettingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */; };
 		74150C331B0CE1E5003E59B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2F1B0CE1E5003E59B0 /* main.m */; };
-		74192A2E1B096EBE0071A655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74192A281B096EBE0071A655 /* InfoPlist.strings */; };
-		74192A2F1B096EBE0071A655 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74192A2A1B096EBE0071A655 /* MainMenu.xib */; };
-		74192A301B096EBE0071A655 /* SettingMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74192A2C1B096EBE0071A655 /* SettingMenu.xib */; };
+		742B3F301B17156C0003E703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2A1B17156C0003E703 /* InfoPlist.strings */; };
+		742B3F311B17156C0003E703 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2C1B17156C0003E703 /* MainMenu.xib */; };
+		742B3F321B17156C0003E703 /* SettingMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2E1B17156C0003E703 /* SettingMenu.xib */; };
 		748C53BD16F6C82E00E5BF27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C53BC16F6C82E00E5BF27 /* Cocoa.framework */; };
 		748C53DA16F6C8B200E5BF27 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C53D916F6C8B200E5BF27 /* WebKit.framework */; };
 /* End PBXBuildFile section */
@@ -31,9 +31,9 @@
 		74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXSettingAppDelegate.m; sourceTree = "<group>"; };
 		74150C2F1B0CE1E5003E59B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74192A251B096EA30071A655 /* fpx.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = fpx.xcconfig; sourceTree = "<group>"; };
-		74192A291B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		74192A2B1B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
-		74192A2D1B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SettingMenu.xib; sourceTree = "<group>"; };
+		742B3F2B1B17156C0003E703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		742B3F2D1B17156C0003E703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+		742B3F2F1B17156C0003E703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SettingMenu.xib; sourceTree = "<group>"; };
 		747BD2EE1B17084800F059FB /* fpx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fpx-Info.plist"; sourceTree = "<group>"; };
 		748C53B916F6C82E00E5BF27 /* fpxDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fpxDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748C53BC16F6C82E00E5BF27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -60,6 +60,7 @@
 		74150C221B0CE17C003E59B0 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				742B3F291B17156C0003E703 /* en.lproj */,
 				747BD2EE1B17084800F059FB /* fpx-Info.plist */,
 				74150C231B0CE17C003E59B0 /* fpx.icns */,
 				74150C241B0CE17C003E59B0 /* fpx.png */,
@@ -82,15 +83,15 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		74192A271B096EBE0071A655 /* en.lproj */ = {
+		742B3F291B17156C0003E703 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				74192A281B096EBE0071A655 /* InfoPlist.strings */,
-				74192A2A1B096EBE0071A655 /* MainMenu.xib */,
-				74192A2C1B096EBE0071A655 /* SettingMenu.xib */,
+				742B3F2A1B17156C0003E703 /* InfoPlist.strings */,
+				742B3F2C1B17156C0003E703 /* MainMenu.xib */,
+				742B3F2E1B17156C0003E703 /* SettingMenu.xib */,
 			);
 			path = en.lproj;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		748C53B016F6C82E00E5BF27 = {
 			isa = PBXGroup;
@@ -99,7 +100,6 @@
 				74192A251B096EA30071A655 /* fpx.xcconfig */,
 				74150C271B0CE1E5003E59B0 /* src */,
 				74150C221B0CE17C003E59B0 /* res */,
-				74192A271B096EBE0071A655 /* en.lproj */,
 				748C53BB16F6C82E00E5BF27 /* Frameworks */,
 				748C53BA16F6C82E00E5BF27 /* Products */,
 			);
@@ -187,10 +187,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74192A301B096EBE0071A655 /* SettingMenu.xib in Resources */,
-				74192A2F1B096EBE0071A655 /* MainMenu.xib in Resources */,
+				742B3F321B17156C0003E703 /* SettingMenu.xib in Resources */,
 				74150C251B0CE17C003E59B0 /* fpx.icns in Resources */,
-				74192A2E1B096EBE0071A655 /* InfoPlist.strings in Resources */,
+				742B3F301B17156C0003E703 /* InfoPlist.strings in Resources */,
+				742B3F311B17156C0003E703 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,26 +244,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		74192A281B096EBE0071A655 /* InfoPlist.strings */ = {
+		742B3F2A1B17156C0003E703 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				74192A291B096EBE0071A655 /* en */,
+				742B3F2B1B17156C0003E703 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		74192A2A1B096EBE0071A655 /* MainMenu.xib */ = {
+		742B3F2C1B17156C0003E703 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				74192A2B1B096EBE0071A655 /* en */,
+				742B3F2D1B17156C0003E703 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		74192A2C1B096EBE0071A655 /* SettingMenu.xib */ = {
+		742B3F2E1B17156C0003E703 /* SettingMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				74192A2D1B096EBE0071A655 /* en */,
+				742B3F2F1B17156C0003E703 /* en */,
 			);
 			name = SettingMenu.xib;
 			sourceTree = "<group>";

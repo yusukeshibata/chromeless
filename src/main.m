@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
         
         // wait parent process finish
         while(getppid() > 1) {
-            usleep(100);
+            usleep(200);
         }
         NSBundle *mb = [NSBundle mainBundle];
         
