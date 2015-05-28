@@ -18,6 +18,7 @@
         self.url = [dic objectForKey:@"url"];
         self.dontmakeordertop = [dic objectForKey:@"dontmakeordertop"];
         self.hidecursor = [dic objectForKey:@"hidecursor"];
+        self.removeshadow = [dic objectForKey:@"removeshadow"];
     } else {
         NSRect rect = [[NSScreen mainScreen] frame];
         self.x = [NSString stringWithFormat:@"%d",(int)rect.origin.x];
@@ -52,6 +53,7 @@
     [dic setValue:self.url forKey:@"url"];
     [dic setValue:self.dontmakeordertop forKey:@"dontmakeordertop"];
     [dic setValue:self.hidecursor forKey:@"hidecursor"];
+    [dic setValue:self.removeshadow forKey:@"removeshadow"];
     
     [FPXPlist store:dic];
     

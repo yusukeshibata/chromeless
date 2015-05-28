@@ -12,6 +12,7 @@
 
 + (NSString *)path;
 + (BOOL)exists;
++ (BOOL)ok;
 + (void)store: (NSDictionary *)dic;
 + (NSDictionary *)retrieve;
 

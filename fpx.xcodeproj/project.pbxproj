@@ -34,7 +34,7 @@
 		74192A291B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		74192A2B1B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
 		74192A2D1B096EBE0071A655 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SettingMenu.xib; sourceTree = "<group>"; };
-		74192A3D1B096F2A0071A655 /* fpx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fpx-Info.plist"; sourceTree = "<group>"; };
+		747BD2EE1B17084800F059FB /* fpx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fpx-Info.plist"; sourceTree = "<group>"; };
 		748C53B916F6C82E00E5BF27 /* fpxDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fpxDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748C53BC16F6C82E00E5BF27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		748C53BF16F6C82E00E5BF27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -60,6 +60,7 @@
 		74150C221B0CE17C003E59B0 /* res */ = {
 			isa = PBXGroup;
 			children = (
+				747BD2EE1B17084800F059FB /* fpx-Info.plist */,
 				74150C231B0CE17C003E59B0 /* fpx.icns */,
 				74150C241B0CE17C003E59B0 /* fpx.png */,
 			);
@@ -96,7 +97,6 @@
 			children = (
 				74E52DEB1B0D9F160014BB2D /* README.md */,
 				74192A251B096EA30071A655 /* fpx.xcconfig */,
-				74192A3D1B096F2A0071A655 /* fpx-Info.plist */,
 				74150C271B0CE1E5003E59B0 /* src */,
 				74150C221B0CE17C003E59B0 /* res */,
 				74192A271B096EBE0071A655 /* en.lproj */,
@@ -224,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/bin/zip -r \"${DIST_DIR}/fpx.zip\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"";
+			shellScript = "/usr/bin/zip -r \"${DIST_DIR}/${PRODUCT_NAME}.zip\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -335,7 +335,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/fpx-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/res/fpx-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
@@ -350,7 +350,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/fpx-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/res/fpx-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

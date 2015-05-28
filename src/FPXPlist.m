@@ -18,11 +18,15 @@
     NSFileManager *fm = [NSFileManager defaultManager];
     return [fm fileExistsAtPath:[FPXPlist path]];
 }
-
++ (BOOL)ok {
+    if([FPXPlist exists] == NO) return NO;
+    NSDictionary *dic = [FPXPlist retrieve];
+    NSString *url = [dic objectForKey:@"url"];
+    return (url && url.length > 0);
+}
 + (void)store: (NSDictionary *)dic {
     [dic writeToFile:[FPXPlist path] atomically:YES];
 }
-
 + (NSDictionary *)retrieve {
     return [NSDictionary dictionaryWithContentsOfFile:[FPXPlist path]];
 }

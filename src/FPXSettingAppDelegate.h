@@ -15,5 +15,6 @@
 @property (retain,nonatomic) IBOutlet NSString *url;
 @property (retain,nonatomic) IBOutlet NSNumber *dontmakeordertop;
 @property (retain,nonatomic) IBOutlet NSNumber *hidecursor;
+@property (retain,nonatomic) IBOutlet NSNumber *removeshadow;
 
 @end

@@ -337,7 +337,11 @@
                             </allowedInputSourceLocales>
                         </textFieldCell>
                         <connections>
-                            <binding destination="911" name="value" keyPath="x" id="948"/>
+                            <binding destination="911" name="value" keyPath="x" id="kM4-E8-DWv">
+                                <dictionary key="options">
+                                    <bool key="NSContinuouslyUpdatesValue" value="YES"/>
+                                </dictionary>
+                            </binding>
                         </connections>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="808">
@@ -359,7 +363,11 @@
                             </allowedInputSourceLocales>
                         </textFieldCell>
                         <connections>
-                            <binding destination="911" name="value" keyPath="y" id="943"/>
+                            <binding destination="911" name="value" keyPath="y" id="3b8-HY-THP">
+                                <dictionary key="options">
+                                    <bool key="NSContinuouslyUpdatesValue" value="YES"/>
+                                </dictionary>
+                            </binding>
                         </connections>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="820">
@@ -389,7 +397,11 @@
                             </allowedInputSourceLocales>
                         </textFieldCell>
                         <connections>
-                            <binding destination="911" name="value" keyPath="h" id="947"/>
+                            <binding destination="911" name="value" keyPath="h" id="DAB-X5-zho">
+                                <dictionary key="options">
+                                    <bool key="NSContinuouslyUpdatesValue" value="YES"/>
+                                </dictionary>
+                            </binding>
                         </connections>
                     </textField>
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="844">
@@ -408,7 +420,11 @@
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                         <connections>
-                            <binding destination="911" name="value" keyPath="url" id="929"/>
+                            <binding destination="911" name="value" keyPath="url" id="Oag-rc-yeJ">
+                                <dictionary key="options">
+                                    <bool key="NSContinuouslyUpdatesValue" value="YES"/>
+                                </dictionary>
+                            </binding>
                         </connections>
                     </textField>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="854">
@@ -475,9 +491,23 @@ Gw
                             </allowedInputSourceLocales>
                         </textFieldCell>
                         <connections>
-                            <binding destination="911" name="value" keyPath="w" id="945"/>
+                            <binding destination="911" name="value" keyPath="w" id="Nyi-en-jFW">
+                                <dictionary key="options">
+                                    <bool key="NSContinuouslyUpdatesValue" value="YES"/>
+                                </dictionary>
+                            </binding>
                         </connections>
                     </textField>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="btX-Vb-icU">
+                        <rect key="frame" x="33" y="71" width="208" height="18"/>
+                        <buttonCell key="cell" type="check" title="Remove shadow from window" bezelStyle="regularSquare" imagePosition="left" inset="2" id="QHI-23-jV8">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <binding destination="911" name="value" keyPath="removeshadow" id="10R-xC-1MY"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
             <connections>
@@ -485,5 +515,6 @@ Gw
             </connections>
             <point key="canvasLocation" x="205" y="181"/>
         </window>
+        <userDefaultsController representsSharedInstance="YES" id="Wfs-5T-oXX"/>
     </objects>
 </document>
