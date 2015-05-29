@@ -15,7 +15,6 @@
 		742B3F301B17156C0003E703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2A1B17156C0003E703 /* InfoPlist.strings */; };
 		742B3F311B17156C0003E703 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2C1B17156C0003E703 /* MainMenu.xib */; };
 		742B3F321B17156C0003E703 /* SettingMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2E1B17156C0003E703 /* SettingMenu.xib */; };
-		747C7FDB1B17189D0092A8FC /* fpx.zip in Resources */ = {isa = PBXBuildFile; fileRef = 747C7FD81B17189D0092A8FC /* fpx.zip */; };
 		748C53BD16F6C82E00E5BF27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C53BC16F6C82E00E5BF27 /* Cocoa.framework */; };
 		748C53DA16F6C8B200E5BF27 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 748C53D916F6C8B200E5BF27 /* WebKit.framework */; };
 /* End PBXBuildFile section */
@@ -198,7 +197,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747C7FDB1B17189D0092A8FC /* fpx.zip in Resources */,
 				742B3F321B17156C0003E703 /* SettingMenu.xib in Resources */,
 				74150C251B0CE17C003E59B0 /* fpx.icns in Resources */,
 				742B3F301B17156C0003E703 /* InfoPlist.strings in Resources */,
@@ -236,8 +234,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/bin/zip -r \"${DIST_DIR}/${PRODUCT_NAME}.zip\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\"";
-			showEnvVarsInLog = 0;
+			shellScript = "cd \"${BUILT_PRODUCTS_DIR}\"\n/usr/bin/zip -r \"${DIST_DIR}/${PRODUCT_NAME}.zip\" \"${PRODUCT_NAME}.app\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
