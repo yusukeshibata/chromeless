@@ -198,9 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				742B3F321B17156C0003E703 /* SettingMenu.xib in Resources */,
+				742B3F311B17156C0003E703 /* MainMenu.xib in Resources */,
 				74150C251B0CE17C003E59B0 /* fpx.icns in Resources */,
 				742B3F301B17156C0003E703 /* InfoPlist.strings in Resources */,
-				742B3F311B17156C0003E703 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
