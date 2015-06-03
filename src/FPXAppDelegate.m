@@ -16,8 +16,10 @@
 {
     // Insert code here to initialize your application
     NSDictionary *dic = [FPXPlist retrieve];
+    NSScreen *screen = [[NSScreen screens] objectAtIndex:0];
+    NSRect screenrect = [screen frame];
     [window setFrame:NSMakeRect([[dic objectForKey:@"x"] intValue],
-                                [[dic objectForKey:@"y"] intValue],
+                                screenrect.size.height - [[dic objectForKey:@"y"] intValue] - [[dic objectForKey:@"h"] intValue],
                                 [[dic objectForKey:@"w"] intValue],
                                 [[dic objectForKey:@"h"] intValue]) display:YES];
     BOOL dontmakeordertop = [[dic objectForKey:@"dontmakeordertop"] boolValue];
