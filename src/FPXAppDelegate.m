@@ -42,6 +42,7 @@
     if(interactiondisabled) {
         [webview setUIDelegate:self];
         [webview setEditingDelegate:self];
+        [[[webview mainFrame] frameView] setAllowsScrolling:NO];
     }
 }
 - (NSArray *)webView:(WebView *)sender contextMenuItemsForElement:(NSDictionary *)element
