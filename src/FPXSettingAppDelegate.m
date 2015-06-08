@@ -19,6 +19,7 @@
         self.dontmakeordertop = [dic objectForKey:@"dontmakeordertop"];
         self.hidecursor = [dic objectForKey:@"hidecursor"];
         self.removeshadow = [dic objectForKey:@"removeshadow"];
+        self.interactiondisabled = [dic objectForKey:@"interactiondisabled"];
     } else {
         NSRect rect = [[NSScreen mainScreen] frame];
         self.x = [NSString stringWithFormat:@"%d",(int)rect.origin.x];
@@ -54,6 +55,7 @@
     [dic setValue:self.dontmakeordertop forKey:@"dontmakeordertop"];
     [dic setValue:self.hidecursor forKey:@"hidecursor"];
     [dic setValue:self.removeshadow forKey:@"removeshadow"];
+    [dic setValue:self.interactiondisabled forKey:@"interactiondisabled"];
     
     [FPXPlist store:dic];
     

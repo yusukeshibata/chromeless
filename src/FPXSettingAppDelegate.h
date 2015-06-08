@@ -16,5 +16,6 @@
 @property (retain,nonatomic) IBOutlet NSNumber *dontmakeordertop;
 @property (retain,nonatomic) IBOutlet NSNumber *hidecursor;
 @property (retain,nonatomic) IBOutlet NSNumber *removeshadow;
+@property (retain,nonatomic) IBOutlet NSNumber *interactiondisabled;
 
 @end

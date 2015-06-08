@@ -21,7 +21,7 @@ This application is very portable and you can order some commands to FPX with cu
 
 ## System Requirements
 
-Mac OSX Version: 10.8+
+Mac OSX Version: 10.7+
 
 
 ## Download

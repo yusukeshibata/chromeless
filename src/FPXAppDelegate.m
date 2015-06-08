@@ -24,6 +24,7 @@
                                 [[dic objectForKey:@"h"] intValue]) display:YES];
     BOOL dontmakeordertop = [[dic objectForKey:@"dontmakeordertop"] boolValue];
     BOOL removeshadow = [[dic objectForKey:@"removeshadow"] boolValue];
+    BOOL interactiondisabled = [[dic objectForKey:@"interactiondisabled"] boolValue];
     if(dontmakeordertop) {
         [NSMenu setMenuBarVisible:NO];
         [window makeKeyAndOrderFront:nil];
@@ -38,6 +39,21 @@
         CGDisplayHideCursor(kCGDirectMainDisplay);
     
     [webview setMainFrameURL:[dic objectForKey:@"url"]];
+    if(interactiondisabled) {
+        [webview setUIDelegate:self];
+        [webview setEditingDelegate:self];
+    }
 }
-
+- (NSArray *)webView:(WebView *)sender contextMenuItemsForElement:(NSDictionary *)element
+    defaultMenuItems:(NSArray *)defaultMenuItems {
+    // disable right-click context menu
+    return nil;
+}
+- (BOOL)webView:(WebView *)webView shouldChangeSelectedDOMRange:(DOMRange *)currentRange
+     toDOMRange:(DOMRange *)proposedRange
+       affinity:(NSSelectionAffinity)selectionAffinity
+ stillSelecting:(BOOL)flag {
+    // disable text selection
+    return NO;
+}
 @end
