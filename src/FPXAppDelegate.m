@@ -57,4 +57,10 @@
     // disable text selection
     return NO;
 }
+- (NSUInteger)webView:(WebView *)sender dragSourceActionMaskForPoint:(NSPoint)point {
+    return WebDragSourceActionNone; // Disable any WebView content drag
+}
+- (NSUInteger)webView:(WebView *)sender dragDestinationActionMaskForDraggingInfo:(id <NSDraggingInfo>)draggingInfo {
+    return WebDragDestinationActionNone; // Disable any WebView content drop
+}
 @end
