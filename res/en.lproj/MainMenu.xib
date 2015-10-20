@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="7706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="8191"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -100,7 +100,8 @@
                 <subviews>
                     <webView translatesAutoresizingMaskIntoConstraints="NO" id="536">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
-                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12" javaScriptCanOpenWindowsAutomatically="NO">
+                        <animations/>
+                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12">
                             <nil key="identifier"/>
                         </webPreferences>
                     </webView>
@@ -111,6 +112,7 @@
                     <constraint firstItem="536" firstAttribute="trailing" secondItem="372" secondAttribute="trailing" id="541"/>
                     <constraint firstItem="536" firstAttribute="bottom" secondItem="372" secondAttribute="bottom" id="542"/>
                 </constraints>
+                <animations/>
             </view>
             <connections>
                 <outlet property="delegate" destination="-2" id="543"/>
