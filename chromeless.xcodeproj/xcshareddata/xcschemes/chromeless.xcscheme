@@ -15,66 +15,69 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "748C53B816F6C82E00E5BF27"
-               BuildableName = "fpx.app"
-               BlueprintName = "fpx"
-               ReferencedContainer = "container:fpx.xcodeproj">
+               BuildableName = "chromelessDebug.app"
+               BlueprintName = "chromeless"
+               ReferencedContainer = "container:chromeless.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Release">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "748C53B816F6C82E00E5BF27"
-            BuildableName = "fpx.app"
-            BlueprintName = "fpx"
-            ReferencedContainer = "container:fpx.xcodeproj">
+            BuildableName = "chromelessDebug.app"
+            BlueprintName = "chromeless"
+            ReferencedContainer = "container:chromeless.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "748C53B816F6C82E00E5BF27"
-            BuildableName = "fpx.app"
-            BlueprintName = "fpx"
-            ReferencedContainer = "container:fpx.xcodeproj">
+            BuildableName = "chromelessDebug.app"
+            BlueprintName = "chromeless"
+            ReferencedContainer = "container:chromeless.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "748C53B816F6C82E00E5BF27"
-            BuildableName = "fpx.app"
-            BlueprintName = "fpx"
-            ReferencedContainer = "container:fpx.xcodeproj">
+            BuildableName = "chromelessDebug.app"
+            BlueprintName = "chromeless"
+            ReferencedContainer = "container:chromeless.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,6 +1,6 @@
 //
-//  FPXPlist.h
-//  fpx
+//  CLPlist.h
+//  CL
 //
 //  Created by Yusuke SHIBATA on 2013/03/18.
 //  Copyright (c) 2013年 Yusuke SHIBATA. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FPXPlist : NSObject
+@interface CLPlist : NSObject
 
 + (NSString *)path;
 + (BOOL)exists;

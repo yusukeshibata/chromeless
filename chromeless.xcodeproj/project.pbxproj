@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74150C251B0CE17C003E59B0 /* fpx.icns in Resources */ = {isa = PBXBuildFile; fileRef = 74150C231B0CE17C003E59B0 /* fpx.icns */; };
-		74150C301B0CE1E5003E59B0 /* FPXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2A1B0CE1E5003E59B0 /* FPXAppDelegate.m */; };
-		74150C311B0CE1E5003E59B0 /* FPXPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2C1B0CE1E5003E59B0 /* FPXPlist.m */; };
-		74150C321B0CE1E5003E59B0 /* FPXSettingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */; };
+		74150C251B0CE17C003E59B0 /* chromeless.icns in Resources */ = {isa = PBXBuildFile; fileRef = 74150C231B0CE17C003E59B0 /* chromeless.icns */; };
+		74150C301B0CE1E5003E59B0 /* CLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2A1B0CE1E5003E59B0 /* CLAppDelegate.m */; };
+		74150C311B0CE1E5003E59B0 /* CLPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2C1B0CE1E5003E59B0 /* CLPlist.m */; };
+		74150C321B0CE1E5003E59B0 /* CLSettingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2E1B0CE1E5003E59B0 /* CLSettingAppDelegate.m */; };
 		74150C331B0CE1E5003E59B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74150C2F1B0CE1E5003E59B0 /* main.m */; };
 		742B3F301B17156C0003E703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2A1B17156C0003E703 /* InfoPlist.strings */; };
 		742B3F311B17156C0003E703 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 742B3F2C1B17156C0003E703 /* MainMenu.xib */; };
@@ -20,23 +20,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		74150C231B0CE17C003E59B0 /* fpx.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = fpx.icns; sourceTree = "<group>"; };
-		74150C241B0CE17C003E59B0 /* fpx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fpx.png; sourceTree = "<group>"; };
-		74150C281B0CE1E5003E59B0 /* fpx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "fpx-Prefix.pch"; sourceTree = "<group>"; };
-		74150C291B0CE1E5003E59B0 /* FPXAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXAppDelegate.h; sourceTree = "<group>"; };
-		74150C2A1B0CE1E5003E59B0 /* FPXAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXAppDelegate.m; sourceTree = "<group>"; };
-		74150C2B1B0CE1E5003E59B0 /* FPXPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXPlist.h; sourceTree = "<group>"; };
-		74150C2C1B0CE1E5003E59B0 /* FPXPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXPlist.m; sourceTree = "<group>"; };
-		74150C2D1B0CE1E5003E59B0 /* FPXSettingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPXSettingAppDelegate.h; sourceTree = "<group>"; };
-		74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPXSettingAppDelegate.m; sourceTree = "<group>"; };
+		74150C231B0CE17C003E59B0 /* chromeless.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = chromeless.icns; sourceTree = "<group>"; };
+		74150C241B0CE17C003E59B0 /* chromeless.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chromeless.png; sourceTree = "<group>"; };
+		74150C281B0CE1E5003E59B0 /* chromeless-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "chromeless-Prefix.pch"; sourceTree = "<group>"; };
+		74150C291B0CE1E5003E59B0 /* CLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAppDelegate.h; sourceTree = "<group>"; };
+		74150C2A1B0CE1E5003E59B0 /* CLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAppDelegate.m; sourceTree = "<group>"; };
+		74150C2B1B0CE1E5003E59B0 /* CLPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPlist.h; sourceTree = "<group>"; };
+		74150C2C1B0CE1E5003E59B0 /* CLPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPlist.m; sourceTree = "<group>"; };
+		74150C2D1B0CE1E5003E59B0 /* CLSettingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSettingAppDelegate.h; sourceTree = "<group>"; };
+		74150C2E1B0CE1E5003E59B0 /* CLSettingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSettingAppDelegate.m; sourceTree = "<group>"; };
 		74150C2F1B0CE1E5003E59B0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		74192A251B096EA30071A655 /* fpx.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = fpx.xcconfig; sourceTree = "<group>"; };
+		74192A251B096EA30071A655 /* chromeless.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = chromeless.xcconfig; sourceTree = "<group>"; };
 		742B3F2B1B17156C0003E703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		742B3F2D1B17156C0003E703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
 		742B3F2F1B17156C0003E703 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SettingMenu.xib; sourceTree = "<group>"; };
-		747BD2EE1B17084800F059FB /* fpx-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fpx-Info.plist"; sourceTree = "<group>"; };
-		747C7FD81B17189D0092A8FC /* fpx.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = fpx.zip; sourceTree = "<group>"; };
-		748C53B916F6C82E00E5BF27 /* fpxDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fpxDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		747BD2EE1B17084800F059FB /* chromeless-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "chromeless-Info.plist"; sourceTree = "<group>"; };
+		748C53B916F6C82E00E5BF27 /* chromelessDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chromelessDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748C53BC16F6C82E00E5BF27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		748C53BF16F6C82E00E5BF27 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		748C53C016F6C82E00E5BF27 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -62,9 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				742B3F291B17156C0003E703 /* en.lproj */,
-				747BD2EE1B17084800F059FB /* fpx-Info.plist */,
-				74150C231B0CE17C003E59B0 /* fpx.icns */,
-				74150C241B0CE17C003E59B0 /* fpx.png */,
+				747BD2EE1B17084800F059FB /* chromeless-Info.plist */,
+				74150C231B0CE17C003E59B0 /* chromeless.icns */,
+				74150C241B0CE17C003E59B0 /* chromeless.png */,
 			);
 			path = res;
 			sourceTree = "<group>";
@@ -72,13 +71,13 @@
 		74150C271B0CE1E5003E59B0 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				74150C281B0CE1E5003E59B0 /* fpx-Prefix.pch */,
-				74150C291B0CE1E5003E59B0 /* FPXAppDelegate.h */,
-				74150C2A1B0CE1E5003E59B0 /* FPXAppDelegate.m */,
-				74150C2B1B0CE1E5003E59B0 /* FPXPlist.h */,
-				74150C2C1B0CE1E5003E59B0 /* FPXPlist.m */,
-				74150C2D1B0CE1E5003E59B0 /* FPXSettingAppDelegate.h */,
-				74150C2E1B0CE1E5003E59B0 /* FPXSettingAppDelegate.m */,
+				74150C281B0CE1E5003E59B0 /* chromeless-Prefix.pch */,
+				74150C291B0CE1E5003E59B0 /* CLAppDelegate.h */,
+				74150C2A1B0CE1E5003E59B0 /* CLAppDelegate.m */,
+				74150C2B1B0CE1E5003E59B0 /* CLPlist.h */,
+				74150C2C1B0CE1E5003E59B0 /* CLPlist.m */,
+				74150C2D1B0CE1E5003E59B0 /* CLSettingAppDelegate.h */,
+				74150C2E1B0CE1E5003E59B0 /* CLSettingAppDelegate.m */,
 				74150C2F1B0CE1E5003E59B0 /* main.m */,
 			);
 			path = src;
@@ -97,7 +96,6 @@
 		747C7FD61B17189D0092A8FC /* dist */ = {
 			isa = PBXGroup;
 			children = (
-				747C7FD81B17189D0092A8FC /* fpx.zip */,
 			);
 			path = dist;
 			sourceTree = "<group>";
@@ -106,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				74E52DEB1B0D9F160014BB2D /* README.md */,
-				74192A251B096EA30071A655 /* fpx.xcconfig */,
+				74192A251B096EA30071A655 /* chromeless.xcconfig */,
 				74150C271B0CE1E5003E59B0 /* src */,
 				74150C221B0CE17C003E59B0 /* res */,
 				747C7FD61B17189D0092A8FC /* dist */,
@@ -118,7 +116,7 @@
 		748C53BA16F6C82E00E5BF27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				748C53B916F6C82E00E5BF27 /* fpxDebug.app */,
+				748C53B916F6C82E00E5BF27 /* chromelessDebug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		748C53B816F6C82E00E5BF27 /* fpx */ = {
+		748C53B816F6C82E00E5BF27 /* chromeless */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 748C53D616F6C82F00E5BF27 /* Build configuration list for PBXNativeTarget "fpx" */;
+			buildConfigurationList = 748C53D616F6C82F00E5BF27 /* Build configuration list for PBXNativeTarget "chromeless" */;
 			buildPhases = (
 				748C53B516F6C82E00E5BF27 /* Sources */,
 				748C53B616F6C82E00E5BF27 /* Frameworks */,
@@ -160,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = fpx;
+			name = chromeless;
 			productName = fpx;
-			productReference = 748C53B916F6C82E00E5BF27 /* fpxDebug.app */;
+			productReference = 748C53B916F6C82E00E5BF27 /* chromelessDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,11 +169,11 @@
 		748C53B116F6C82E00E5BF27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = FPX;
+				CLASSPREFIX = CL;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = fata.io;
 			};
-			buildConfigurationList = 748C53B416F6C82E00E5BF27 /* Build configuration list for PBXProject "fpx" */;
+			buildConfigurationList = 748C53B416F6C82E00E5BF27 /* Build configuration list for PBXProject "chromeless" */;
 			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -187,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				748C53B816F6C82E00E5BF27 /* fpx */,
+				748C53B816F6C82E00E5BF27 /* chromeless */,
 			);
 		};
 /* End PBXProject section */
@@ -199,7 +197,7 @@
 			files = (
 				742B3F321B17156C0003E703 /* SettingMenu.xib in Resources */,
 				742B3F311B17156C0003E703 /* MainMenu.xib in Resources */,
-				74150C251B0CE17C003E59B0 /* fpx.icns in Resources */,
+				74150C251B0CE17C003E59B0 /* chromeless.icns in Resources */,
 				742B3F301B17156C0003E703 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,7 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_PATH}/${INFOPLIST_FILE}\"";
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${SRCROOT}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${SRCROOT}/${INFOPLIST_FILE}\"";
 			showEnvVarsInLog = 0;
 		};
 		74203A221B16B10E0087E214 /* Archive App to Zip */ = {
@@ -243,9 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74150C321B0CE1E5003E59B0 /* FPXSettingAppDelegate.m in Sources */,
-				74150C301B0CE1E5003E59B0 /* FPXAppDelegate.m in Sources */,
-				74150C311B0CE1E5003E59B0 /* FPXPlist.m in Sources */,
+				74150C321B0CE1E5003E59B0 /* CLSettingAppDelegate.m in Sources */,
+				74150C301B0CE1E5003E59B0 /* CLAppDelegate.m in Sources */,
+				74150C311B0CE1E5003E59B0 /* CLPlist.m in Sources */,
 				74150C331B0CE1E5003E59B0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +280,7 @@
 /* Begin XCBuildConfiguration section */
 		748C53D416F6C82F00E5BF27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74192A251B096EA30071A655 /* fpx.xcconfig */;
+			baseConfigurationReference = 74192A251B096EA30071A655 /* chromeless.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -314,7 +312,7 @@
 		};
 		748C53D516F6C82F00E5BF27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74192A251B096EA30071A655 /* fpx.xcconfig */;
+			baseConfigurationReference = 74192A251B096EA30071A655 /* chromeless.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -339,7 +337,7 @@
 		};
 		748C53D716F6C82F00E5BF27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74192A251B096EA30071A655 /* fpx.xcconfig */;
+			baseConfigurationReference = 74192A251B096EA30071A655 /* chromeless.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -347,18 +345,18 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/res/fpx-Info.plist";
+				GCC_PREFIX_HEADER = "src/chromeless-Prefix.pch";
+				INFOPLIST_FILE = "res/chromeless-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				PRODUCT_NAME = chromelessDebug;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		748C53D816F6C82F00E5BF27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74192A251B096EA30071A655 /* fpx.xcconfig */;
+			baseConfigurationReference = 74192A251B096EA30071A655 /* chromeless.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -366,11 +364,11 @@
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "src/fpx-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/res/fpx-Info.plist";
+				GCC_PREFIX_HEADER = "src/chromeless-Prefix.pch";
+				INFOPLIST_FILE = "res/chromeless-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = chromelessDebug;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -378,7 +376,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		748C53B416F6C82E00E5BF27 /* Build configuration list for PBXProject "fpx" */ = {
+		748C53B416F6C82E00E5BF27 /* Build configuration list for PBXProject "chromeless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				748C53D416F6C82F00E5BF27 /* Debug */,
@@ -387,7 +385,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		748C53D616F6C82F00E5BF27 /* Build configuration list for PBXNativeTarget "fpx" */ = {
+		748C53D616F6C82F00E5BF27 /* Build configuration list for PBXNativeTarget "chromeless" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				748C53D716F6C82F00E5BF27 /* Debug */,

@@ -1,8 +1,8 @@
-#import "FPXAppDelegate.h"
-#import "FPXPlist.h"
+#import "CLAppDelegate.h"
+#import "CLPlist.h"
 #import <CoreGraphics/CGDirectDisplay.h>
 
-@implementation FPXAppDelegate
+@implementation CLAppDelegate
 
 @synthesize window;
 @synthesize webview;
@@ -15,7 +15,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
-    NSDictionary *dic = [FPXPlist retrieve];
+    NSDictionary *dic = [CLPlist retrieve];
     NSScreen *screen = [[NSScreen screens] objectAtIndex:0];
     NSRect screenrect = [screen frame];
     [window setFrame:NSMakeRect([[dic objectForKey:@"x"] intValue],

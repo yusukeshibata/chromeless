@@ -1,11 +1,11 @@
-# fpx.app for Mac OSX
+# chromeless.app for Mac OSX
 
-## What is __fpx__?
+## What is __chromeless__?
 
-FPX is osx native webview locator on screen.  
+chromeless is osx native webview locator on screen.  
 You can location window with or without screen at flexible rect positioning.  
 Useful for kiosk terminal or installation pc using web based application, and useful in Multi screen environment.  
-This application is very portable and you can order some commands to FPX with cui(or gui).  
+This application is very portable and you can order some commands to chromeless with cui(or gui).  
 
 ## How to use
 
@@ -26,7 +26,7 @@ Mac OSX Version: 10.7+
 
 ## Download
 
-Download [Latest app zipped](dist/fpx.zip?raw=true).
+Download [Latest app zipped](dist/chromeless.zip?raw=true).
 
 ## License
 

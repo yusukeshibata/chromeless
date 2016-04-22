@@ -1,7 +1,7 @@
-#import "FPXSettingAppDelegate.h"
-#import "FPXPlist.h"
+#import "CLSettingAppDelegate.h"
+#import "CLPlist.h"
 
-@implementation FPXSettingAppDelegate
+@implementation CLSettingAppDelegate
 
 - (void)dealloc
 {
@@ -9,8 +9,8 @@
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    if([FPXPlist exists]) {
-        NSDictionary *dic = [FPXPlist retrieve];
+    if([CLPlist exists]) {
+        NSDictionary *dic = [CLPlist retrieve];
         self.x = [dic objectForKey:@"x"];
         self.y = [dic objectForKey:@"y"];
         self.w = [dic objectForKey:@"w"];
@@ -57,7 +57,7 @@
     [dic setValue:self.removeshadow forKey:@"removeshadow"];
     [dic setValue:self.interactiondisabled forKey:@"interactiondisabled"];
     
-    [FPXPlist store:dic];
+    [CLPlist store:dic];
     
     NSArray *arguments = [NSArray arrayWithObjects:
                           @"--relaunch",

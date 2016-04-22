@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@interface FPXSettingAppDelegate : NSObject <NSApplicationDelegate>
+@interface CLSettingAppDelegate : NSObject <NSApplicationDelegate>
 
 - (IBAction)apply:(id)sender;
 - (IBAction)cancel:(id)sender;

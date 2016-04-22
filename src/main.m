@@ -1,5 +1,5 @@
 #import <Cocoa/Cocoa.h>
-#import "FPXPlist.h"
+#import "CLPlist.h"
 
 int main(int argc, char *argv[])
 {
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
                             URLByAppendingPathComponent:@"Contents"]
                            URLByAppendingPathComponent:@"Info.plist"];
         NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithContentsOfURL:plistURL];
-        NSString *bi = [NSString stringWithFormat:@"io.fata.fpx.%@", name];
+        NSString *bi = [NSString stringWithFormat:@"io.fata.CL.%@", name];
         [dic setValue:name forKey:@"CFBundleExecutable"];
         [dic setValue:name forKey:@"CFBundleName"];
         [dic setValue:bi forKey:@"CFBundleIdentifier"];
@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
     NSUInteger modifierFlags = [NSEvent modifierFlags];
     BOOL settingMode = [[NSNumber numberWithInt:(modifierFlags & NSCommandKeyMask)] boolValue];
     [NSApplication sharedApplication];
-    NSString *nibName = settingMode == NO && [FPXPlist ok] ? @"MainMenu" : @"SettingMenu";
+    NSString *nibName = settingMode == NO && [CLPlist ok] ? @"MainMenu" : @"SettingMenu";
     [[NSBundle mainBundle] loadNibNamed:nibName owner:NSApp topLevelObjects:nil];
     [NSApp run];
     [pool release];
