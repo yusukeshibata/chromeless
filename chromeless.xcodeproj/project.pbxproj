@@ -348,6 +348,7 @@
 				GCC_PREFIX_HEADER = "src/chromeless-Prefix.pch";
 				INFOPLIST_FILE = "res/chromeless-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fata.app.chromeless;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = chromelessDebug;
 				WRAPPER_EXTENSION = app;
@@ -367,8 +368,9 @@
 				GCC_PREFIX_HEADER = "src/chromeless-Prefix.pch";
 				INFOPLIST_FILE = "res/chromeless-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fata.app.chromeless;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = chromelessDebug;
+				PRODUCT_NAME = chromeless;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
